@@ -1,5 +1,5 @@
 /* INITIAL STYLE */
-
+/*1113*/
 html {
     font-size: 15px;
 }
@@ -43,8 +43,8 @@ header {
 }
 
 .mogo-header {
+    height: 100%;
     width: 100%;
-    height: 100vh;
 
     background:#FFF
     url("../img/bg.jpg") center
@@ -110,9 +110,15 @@ header {
     flex-direction: column;
 }
 
-.kaushan {
+.kaushan-72 {
     font-family: 'Kaushan Script', cursive;
     font-size: 72px;
+    font-weight: 400;
+}
+
+.kaushan-24 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
     font-weight: 400;
 }
 
@@ -140,6 +146,7 @@ header {
     height: 34px;
 
     margin-top: 50px;
+    margin-bottom: 230px;
 
     color: #fff;
     background-color: #00000000;
@@ -154,7 +161,8 @@ header {
 }
 
 .learn-more:active {
-    
+    background-color: #f3c933;
+    border-color: #f3c933;
 }
 
 
@@ -166,3 +174,65 @@ header {
     max-width: 1200px;
 }
 
+.story-about {
+    margin: 100px 0 0 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.story-about-txt {
+    margin-top: 25px;
+
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.stroke-red {
+    margin-top: 42px;
+
+    width: 4rem;
+    height: 3px;
+
+    background-color: #f38181;
+}
+
+.lorem {
+    margin-top: 50px;
+    max-width: 955px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #999999;
+    text-align: center;
+}
+
+.photo-row {
+    margin-top: 95px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+/*
+.about-img {
+    transition: top .4s;
+}
+
+.about-img:hover {
+    top: 5px;
+    left: -6px;    
+}
+*/
+
+.statistic-info {
+    margin-top: 105px;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+}
